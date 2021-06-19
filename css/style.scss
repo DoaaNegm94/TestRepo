@@ -72,11 +72,8 @@ body {
 
 
 .header {
+    @extend .cover;
     background: url('../images/header_stock.png');
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
     color: #FFF;
    .navbar {
         overflow: hidden;
@@ -583,3 +580,12 @@ body {
 }
 
 /* End Footer */
+
+/* Classes to Extend */
+
+.cover {
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover
+}
